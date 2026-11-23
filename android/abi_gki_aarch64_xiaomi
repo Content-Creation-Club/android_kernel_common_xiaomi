@@ -436,6 +436,8 @@
   nvmem_unregister
   blkdev_put
   blkdev_get_by_path
+  bdev_open_by_path
+  bdev_release
   generic_shutdown_super
   sget_dev
   deactivate_locked_super
